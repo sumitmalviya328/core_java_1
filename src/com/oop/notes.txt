@@ -1,0 +1,129 @@
+Object oriented programming (most imp )
+=================================
+1. java is a class based language.
+2. java class consist 5 element.
+   1. Variable
+   2. Methods
+   3. Constructor
+   4. Blocks
+   5. Inner class (Nested class)
+
+   Example :
+          class <class-name>
+        {
+          1. Variable
+          2. Methods
+          3. Constructor
+          4. Blocks
+          5. Inner class (Nested class)
+
+         }
+3. Variable
+  a. Variable are used to store data/value.
+
+  Example :
+           int rollno = 101;
+           whare 'rollno' is a variable thet stored 101 (data/value/constant)
+
+  b. there are three type of variable in java.
+  * local variable
+     |- Local variable are define inside the Method/Constructor /Block.
+     |- Calling of local variable depend on: When Method/Constructor/Block call.
+     |- Memory Allocation : Stack
+
+  * instance variable
+     |- Instance variable are define inside the class but outside the Methode/constructor/Blocks
+     |- Calling of instance variable depend on: object.
+     |- Memory Allocation : Heap
+     |-How many times memory will create : depend upon number of object, if we have tree object of a class then 3 time memory will create for single IV
+
+  * static variable
+     |- Static variable are define inside the class but outside the Methode/constructor/Blocks with prefix 'static'.
+     |- Calling of static variable depend on: class.
+     |- Memory Allocation : Non-Heap
+     |-How many times memory will create : one time.
+
+  c.
+  Example:
+  Program1
+
+4. Methods
+   a. Methods are uses to write the logics of the program.
+   b. There are two type of methods
+      |- Instance Methods or non-static methods
+      |- Static Methods
+
+ Example :
+    program2
+
+Calling rule
+--------------
+1. Instance methods ---Directly---> Instance methods/variable
+2. static methods ---Object---> Instance methods/variable
+3. Instance methods ---Classname---> Static methods/variable
+4. Static methods ---Classname---> Static methods/variable
+
+Example
+Program3
+
+Q. How to create object of a class
+A. There are 4 ways
+   |-Named object
+   |-nameless object
+   |-Instance object
+   |-Static Factory object
+--------------------------------------
+        |- Named object
+        Syntax:
+              class-name obj-name = new constructor-name();
+        Example:
+              Program4 obj1 = new Program4();
+
+        |- Nameless object
+        Syntax:
+             new constructor-name();
+        Example:
+              new Program4();
+
+6. Constructor
+-----------------
+1. Constructor is a special type or method which is invoked implicitly at the time of the object creation.
+2. it is used to initialize object.
+3. It is also used to initialize instance variable by using default value
+
+      Data-type                       Default value
+      ---------------------------------------------------
+      byte,short,int,long                    0
+      float,double                           0.0
+      boolean                                false
+      char                                    (1 space)
+      String                                 null
+      ----------------------------------------------------
+4. Types of Constructor
+    |- Default Constructor  [Compiler]
+       |- Zero Parameterize
+
+    |- User define constructor
+       |- Zero or more than Zero Parameterize
+
+5. Constructor-name and class-name should be same
+6. Constructor are able to pass parameters.
+7. Constructor doesn't have any return-type
+
+8. Example:
+        Program12
+
+program15: Difference
+program16: How constructor used to initialize IV
+Program17:
+Program18:
+Program21: 'this' keyword : it represent as current class object.
+            |- We can use 'this' keyword with
+                   |- variable
+                   |- method
+                   |- constructor
+                       |- this should be first statement in constructor
+
+Program.22 :
+
+
