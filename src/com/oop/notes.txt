@@ -125,5 +125,44 @@ Program21: 'this' keyword : it represent as current class object.
                        |- this should be first statement in constructor
 
 Program.22 :
+ 7. Blocks
+ ------------
+ a. Blocks are used to write common logics.
+ b. Types of Blocks
+    |-Instance Block
+          |-Syntax
+              {
+               // statement
+              }
+          |- IB logics are common for all object
+          |- IB executes at the time of object creation
+    |- Static Block
+       |- Syntax
+             static{
+                  // statement
+             }
+       |-SB logics are common for whole class.
+
+    c. Example:
+       Program23:
+       Program24:
+
+ 8. Inner class
+ ------------------
+ a. Class inside another class is known as Inner class
+ b. Non-static nested class is inner class
+ Syntax:
+      class Outer
+      {
+      ......
+      class inner
+      {
+      .......
+      }
+      }
+ c. Inner class can access all the members/element of Outer class
+ Examples:
+      Outer1
+
 
 
