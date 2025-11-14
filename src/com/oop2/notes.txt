@@ -1,0 +1,19 @@
+Inheritance
+------------------
+1. It is a concept in which one class can aquires all the property of another class.
+2. Inheritance also known as IS-A relationship.
+3. Types of Inheritance
+    |- Single Inheritance
+    |- Multi Level Inheritance
+    |- Hierarchical Inheritance
+    |- Multiple Inheritance
+    |- Hybrid Inheritance
+4. java doesn't support Multiple Inheritance through class.
+    why |- because it generates abiguity [Diamond problem}
+        |- we can achieve Multiple Inheritance through interface
+
+5. Example:
+   Test1.java
+   Test3.java
+   Test5.java
+   Test7.java : we can't define class as 'final'

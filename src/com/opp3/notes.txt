@@ -1,0 +1,36 @@
+Polymorphism
+------------------------
+1. It mean more then one forms.
+2. There are two types of polymorphism
+     |- Compile time Polymorphism
+                                    occur|- Compile Time
+         who is responsible to check CTP |- Compiler
+                                      aka|- Overloading
+     |- Run time Polymorphism
+                                   occur |- Run Time
+         who is responsible to check RTP |- JVM
+                                     aka |- Overriding
+
+ Overloading
+ ============
+ 1. Methods having same name but different parameter in a class.
+ 2. Compiler is responsible to check methods are overloaded or not.
+     How |- It checks 'method signature'
+             method signature <=>  method name (parameter-list)
+ 3. The main advantage method overloading is to increase to readability of the program.
+ Example
+        Test1.java
+        Test2.java
+        Test3.java
+        Test4.java
+
+
+
+ Overriding
+ =============
+ 1. Methods having same name with same parameter, there methods are in different classes and classes should be in IS-A relationship
+ 2. JVM is responsible to check Methods are override not.
+    How |- It check the specific implementation od parent method in the child class.
+ 3. The main advantage method overriding id to provide specific implementation of the method.
+Example:
+
